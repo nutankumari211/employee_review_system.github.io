@@ -1,0 +1,62 @@
+body{
+    /* background-color: black; */
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgICAgICAgIBwcHCAoHBwcHCA8ICQcKFREWFiARExUYHSggGCYxGxMTLTEhJSk3Ny46Gh8zODMsNzg5LjEBCgoKDQ0NFQ8PFS0dFR0rKy8tLS0tKy0rKystKysuNS0rLS0tNystKy0rKyssLS0rKysrKys3MzIrLSstNy0rK//AABEIAKgBKwMBIgACEQEDEQH/xAAbAAEBAQEBAQEBAAAAAAAAAAAAAQIDBQQGB//EAC4QAQEAAgEBBQUIAwAAAAAAAAABAhEDEgQhMVFhMkFxsfATIjNSgYKRoQVyc//EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EAB8RAQEBAQACAgMBAAAAAAAAAAABEQIhMQMSQUJRBP/aAAwDAQACEQMRAD8A/o4DyXtAAAAYADMNiGHSXbUcpdNy7R1zibGxnZtJLWaqUGzUqs1SolZrVZpqjNZq1mqi4zWa1WauKjNZrVYpxcSsVqs1S4zWa1WaqLjNZrVZqlREWopQADAAH6ABwPJAAAAzAQwAKkAS6QVhukuxz21tn1xicaSps2nBhtmqzaeKKzVrNNUSs1azVRUSsVqs1UXGazVrNVFxKzWqxVLiVitVmqiozUWs1S4gBqAAAAB+gAcDyQA4YCKACHgVAVDARUgDYKw12Wom2fXGDF2m0TacPDaUqUYcSs1WapUSs2rWaa4lZq1mnFxKzVrNUqJWK1WaqLiVmrUqlRADUAAAAD9AA4XkgIchgCoBAXIYgHIAEVIaoCsAIp4bNRqxm41lecOJtKvTl5JccvIsPwzWa1ZZ4yz9GKMXErNWs08VErNWs01xKzVrKlQrK1mqXErK1DVAAzAAAAB+gAcTyhAVIBAVIYgLgARUhgIqQ1QFYAAAVFTQoCKSs5ceGXjP1nc0IpPn5Oz5eOF36Xur58ty6sss917nos8nHjyTWU+FnjCnX9ac/Jnt5tZrtz8OXHfzY3wyjhWk8ujmy+kqUrKliUrNqouRADUAAAAAAA/QIqOOPKEBcMBFSABFyGAKkMQFQABgAAFiKmhRFRSURWdJQEWEWSyyyWXusvved2rgvFdzv474X8vo9FM8ZlLjlN42asPm4vju8141qWunPx3izuN8PHG+ccLduiO7nzNhbtAU0AAAU0C1BdGgNQXRoDXvAjkjzABcCALhoAuAQFGAGAAAAAUQTQqoJpKqCLAoCbCVALA+ftvD9rx3Xt4fex9fR5L3nj9s4/s+bOT2cvv4+Wr9Vrxfw6v8/f6uIK0dRpdLIshJ1NLpqRqROp1jR0ukxOkaX2c9GnTpOkaPs9ZFGEcCItRcACLhiKi4YAoAAAAAAAAEIKIpAVBGEoBWBRAsA+L/ACeG8cM57rcL8PqPtcO2zfBnPKTL+Kc9q+O51HlRqRI3It32kjUhI3Im1FqSNSLI1InUWsyLpuRdFqdY0adNJ0lpfZ91RUKOZAFwCKioYCLhgCgAAAAAAAAACoEFEVIFQLCUQGBXPtH4XJ/zy+Tbnz/hcn+mXyGHPceXI3IzI6YwV22rI3ImMbkRaztWRqRZGpEWs7Uka6WpF0nU2sdJ0umjpLS11QFxmgC4YlVKuARUVDKFDAAYAAAAAAAAAAAgKgWBRFGAcO13XFl62Y/27Pk7dl7GH779fyFcTeo+aRuM4umLOumtSOmMZxjpiisrVxjciYx0kRaztJGtLI1Ii1nazo03o0RawUG8NAFGIC4BFFGgBgAMAAAAAAAAAAAAAAAAA83lz688svdbrH4AmtvhnumLcUZ1rXTF0xBnWNdMY3iozrKtyNyAis6ujShJf//Z");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/* Heading of the admin Page */
+.heading{
+    display: flex;
+    justify-content: center;
+    /* align-items: center;
+    align-content: center; */
+    color: rgb(197, 26, 143);
+}
+/* Assign Heading */
+.assingHeadine{
+    display: flex;
+    justify-content: center;
+}
+/* Container for assigning reviwer and reviewing */
+.reviewContainer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(6, 7, 6);
+    flex-direction: column;
+    width: 40%;
+    margin-left: 30%;
+    align-items: center;
+    height: fit-content;
+}
+/* for the reviewer, containere */
+.reviewer{
+    width: 90%;
+}
+/* Submit buttons div*/
+.submitButtons{
+    margin-left: 25%;
+    width: 50%;
+}
+/* Submit buttons  */
+.submitButtons button{
+    background-color:rgb(197, 26, 143);
+    width: 20vw;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+/* This button is used in assigning admin,  */
+.submitButtons2{
+    width: 20vw;
+}
+
+.btn{
+    background-color: rgb(197, 26, 143);
+}
+
