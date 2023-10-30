@@ -3,7 +3,7 @@
 A full stack, app used for reviewing employee. # Hoisted Link : https://employee-review-system-spbf.onrender.com
 
 # Description
-A full stack app, in which the admin, can assign the employees, to review each other on the basic of there work. The admin has special power, to make any other employee as the new admin. Admin can also make the new employee, and they can also assing, the reviewer and revieweee. The admin can see the current employee, and according to the review, the admin can remove the employee. The review given to the employee, is always going to be store in the database.
+A full stack app, in which the admin, can assign the employees to review each other on the basis of their work. The admin has special power, to make any other employee as the new admin. Admin can also make the new employee, and they can also assign the reviewer and reviewee. The admin can see the current employee, and according to the review, the admin can remove the employee. The review given to the employee, is always going to be store in the database.
 
 # Tech Stack
 Node , Express, Mongodb , EJS , javaScript , html, css
